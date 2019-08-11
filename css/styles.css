@@ -1,0 +1,88 @@
+/* Icons by https://www.flaticon.com/categories/arrows */
+:root {
+    --primary-color: #ce714b;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    min-height: 100px;
+}
+
+.navbar-svg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    width: 18em;
+}
+.active-home {
+    border-bottom: 2px solid #000;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: 0;
+}
+
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.right-arrow-icon {
+    background-image: url("../img/right-arrow.svg") !important;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    width: 41px;
+    height: 23px;
+    top: 37%;
+    right: 6%;
+    opacity: .8;
+}
+
+.left-wavy-svg {
+   position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 25em;
+    z-index: -1;
+}
+
+.heading-motto {
+    color: var(--primary-color);
+    margin-top: 30%;
+    /* font-family: 'Spectral', serif; */
+    font-family: 'Quicksand', sans-serif;
+    word-spacing: 5px;
+    line-height: 45px;
+    font-size: 40px;
+    width: 13em;
+}
+
+.circle-svg {
+    position: absolute;
+    right: 90px;
+    bottom: -153px;
+    width: 165px !important;
+    height: 305px !important;
+}
+.nav-link {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    opacity: .9;
+}
+
+@media only screen and (max-width:600px) {
+    .heading-motto {
+        word-spacing: 5px;
+        font-size: 23px;
+        line-height: normal;
+    }
+    .left-wavy-svg {
+        width: 20em;
+    }
+}
